@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    box-shadow: 0.5px 3px 3px rgb(139, 139, 139);
+    width: 800px;
+    height: auto;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.img_card {
+    height: 210px;
+}
+
+.img_card img {
+    width: 200px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.description_card {
+    width: 550px;
+    height: auto;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+.description_card hr{
+    width: 40px;
+}
+
+.p_autor{
+    text-align: end;
+}
