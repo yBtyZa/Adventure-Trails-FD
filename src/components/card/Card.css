@@ -1,27 +1,34 @@
 .card {
     display: flex;
     box-shadow: 0.5px 3px 3px rgb(139, 139, 139);
-    width: 800px;
-    height: auto;
+    width: 1000px;
+    height: 351px;
     align-items: center;
     margin-top: 50px;
+    color: #0D1A26;
 }
 
 .img_card {
-    height: 210px;
+    height: 351px;
 }
 
 .img_card img {
-    width: 200px;
-    height: 210px;
+    width: 400px;
+    height: 351px;
     object-fit: cover;
 }
 
 .description_card {
+    font-size: 16px;
     width: 550px;
-    height: auto;
+    height: 300px;
     margin-left: 25px;
-    line-height: 30px;
+    line-height: 40px;
+}
+
+.description_card h3{
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .description_card hr{
@@ -30,4 +37,42 @@
 
 .p_autor{
     text-align: end;
+}
+
+.info_trajeto{
+    margin: 10px 0;
+    color: #5C6670;
+}
+
+.difficult_card{
+    background-color: #EFF0F0;
+    padding: 6px 8px 6px 8px;
+    border-radius: 32px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.avaliacao_card{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.avaliacao_card a{
+    color: #0D1A26;
+}
+
+.avaliacao_card a:visited{
+    color: #0D1A26;
+}
+
+.stars_card{
+    margin-right: 30px;
+    display: flex;
+    gap: 8px;
+}
+
+.stars_card box-icon{
+    width: 30px;
+    height: 28.5px;
 }

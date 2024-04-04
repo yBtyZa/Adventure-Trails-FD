@@ -1,39 +1,28 @@
 import Card from "./components/card/Card";
+import Header from "./components/header/Header";
 import "./App.css";
-
+import useFetch from "./hooks/useFetch";
 function App() {
-  let data = [
-    {
-      image:
-        "https://images.pexels.com/photos/4300343/pexels-photo-4300343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      titulo: "Trilha da Costa da Lagoa",
-      autor: "Guilherme Betsa",
-      cidade: "Florianópolis",
-      estado: "Sc",
-      duracao: 120,
-      trajeto: 4,
-      dificuldade: "Iniciante",
-      tipo: "Caminhada",
-    },
-    {
-      image:
-        "https://images.pexels.com/photos/4300343/pexels-photo-4300343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      titulo: "Trilha da Costa da Lagoa",
-      autor: "Guilherme Betsa",
-      cidade: "Florianópolis",
-      estado: "Sc",
-      duracao: 120,
-      trajeto: 4,
-      dificuldade: "Iniciante",
-      tipo: "Caminhada",
-    }
-  ];
 
-  return data.map((item) => (
-    <div className="app">
-      <Card {...item} />
+  const [trilhas, loading] = useFetch(
+    "/Trilhas.json"
+  );
+
+  return (
+    <div className="container">
+      <Header />
+      <h1>Explore trilhas incríveis</h1>
+
+      {loading && <p>Carregando trilhas...</p>}
+      {!loading && trilhas !== null && (
+        <div className="app">
+          {trilhas.map((item, index) => (
+            <Card key={index} {...item} />
+          ))}
+        </div>
+      )}
     </div>
-  ));
+  );
 }
 
 export default App;
