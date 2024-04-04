@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.header_navbar {
+    background-color: #504908;
+    color: #FFFFFF;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    height: 80px;
+    align-items: center;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.header_navbar h4 {
+    font-weight: 700;
+}
+
+.header_navbar a {
+    font-weight: 400;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* .header_navbar a:hover {
+    color: #FFFFFF;
+} */
+
+.navbar img {
+    height: 371px;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(24%);
+}
