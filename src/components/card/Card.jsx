@@ -9,21 +9,21 @@ function Card(props) {
    final: " ></box-icon",
    cor: 'color="#eff0f0"',
    hover: false,
-   click: true
+   click: false
   },
   {
    star: '<box-icon type="solid" name="star"',
    final: " ></box-icon",
    cor: 'color="#eff0f0"',
    hover: false,
-   click: true
+   click: false
   },
   {
    star: '<box-icon type="solid" name="star"',
    final: " ></box-icon",
    cor: 'color="#eff0f0"',
    hover: false,
-   click: true
+   click: false
   },
   {
    star: '<box-icon type="solid" name="star"',
