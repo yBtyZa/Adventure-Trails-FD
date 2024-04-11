@@ -61,7 +61,7 @@
 .avaliacao_card a{
     color: #0D1A26;
     position: relative;
-    bottom: 5px;
+    top: 5px;
 }
 
 .avaliacao_card a:visited{
@@ -79,4 +79,8 @@
     height: 28.5px;
     cursor: pointer;
     padding: 0 5px 0 5px;
+}
+
+.div_stars{
+    height: 20px;
 }

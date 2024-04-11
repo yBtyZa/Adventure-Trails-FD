@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.footer{
+    background-color: #504908;
+    color: #FFFFFF;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Comfortaa", sans-serif;
+    margin-top: 130px;
+}
+
+.footer p{
+    position: relative;
+    left: 77px;
+    font-size: 16px;
+}
+
+.footer_img{
+    position: relative;
+    right: 100px;
+    display: flex;
+    gap: 28px;
+}

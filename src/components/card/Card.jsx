@@ -90,6 +90,7 @@ function Card(props) {
      <div className="stars_card">
       {starsAvaliacao.map((item, index) => (
        <div
+       className="div_stars"
         key={index}
         onMouseEnter={() => handleMouseEnter(index)}
         onMouseLeave={() => handleMouseLeave()}
