@@ -1,7 +1,7 @@
 import "./App.css";
 import { Outlet } from "react-router-dom";
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
+import Header from "./components/molecules/header/Header";
+import Footer from "./components/atoms/footer/Footer";
 
 import { TrilhasContextProvider } from "./context/TrilhasContext";
 
