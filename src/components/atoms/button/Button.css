@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-button{
+.button_atoms{
     font-family: "Inter", sans-serif;
     background-color: #504908;
     border: none;

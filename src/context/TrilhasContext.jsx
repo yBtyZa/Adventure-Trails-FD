@@ -4,7 +4,7 @@ import useFetch from "../hooks/useFetch";
 export const TrilhasContext = createContext();
 
 export const TrilhasContextProvider = ({ children }) => {
-   const [ data, loading, isVisible] = useFetch("/trilhas.json");
+   const [ data, loading, isVisible ] = useFetch("/trilhas.json");
 
    const [trilhas, setTrilhas] = useState([]);
 
