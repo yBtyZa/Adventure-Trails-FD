@@ -1,31 +1,10 @@
-import { useContext } from "react";
-import { TrilhasContext, } from "../context/TrilhasContext";
+import CadastroTemplates from "../components/templates/cadastroTemplates.jsx/CadastroTemplates";
+import "./pagesCSS/CadastroTrilhas.css";
 
-function CadastroTrilhas(){
-
-    const { trilhas, setTrilhas } = useContext(TrilhasContext);
-    function adicionarNovaTrilha(){
-        const novaTrilha = {
-            "image": "https://example.com/nova-trilha.jpg",
-            "titulo": "Nova Trilha",
-            "autor": "Autor da Nova Trilha",
-            "cidade": "Florianópolis",
-            "estado": "SC",
-            "duracao": 90,
-            "trajeto": 5,
-            "dificuldade": "Intermediário",
-            "tipo": "Caminhada"
-          }
-
-          setTrilhas([novaTrilha, ...trilhas]);
-          alert("Trilha adicionada com sucesso!")
-    }
-
-    return(
-        <>
-        <button onClick={adicionarNovaTrilha}>Adicionar nova trilha</button>
-        </>
-    )
+function CadastroTrilhas() {
+ return (
+  <CadastroTemplates/>
+ )
 }
 
-export default CadastroTrilhas
+export default CadastroTrilhas;

@@ -4,43 +4,43 @@
   "titulo": "Trilha da Costa da Lagoa",
   "autor": "Guilherme Betsa",
   "cidade": "Florianópolis",
-  "estado": "Sc",
+  "estado": "SC",
   "duracao": 120,
   "trajeto": 7,
   "dificuldade": "Intermediário",
-  "tipo": "Caminhada"
+  "tipo": "Caminhada / Trekking"
  },
  {
   "image": "https://www.letshike.com.br/wp-content/uploads/2019/09/Gravata-FloripaHike-8.jpg",
   "titulo": "Trilha do Gravatá",
   "autor": "Guilherme Betsa",
   "cidade": "Florianópolis",
-  "estado": "Sc",
+  "estado": "SC",
   "duracao": 30,
   "trajeto": 1.8,
   "dificuldade": "Iniciante",
-  "tipo": "Caminhada"
+  "tipo": "Caminhada / Trekking"
  },
  {
   "image": "https://sendoguia.com.br/wp-content/uploads/2022/08/naufragados.png",
   "titulo": "Trilha dos Naufragados",
   "autor": "Guilherme Betsa",
   "cidade": "Florianópolis",
-  "estado": "Sc",
+  "estado": "SC",
   "duracao": 120,
   "trajeto": 7,
   "dificuldade": "Intermediário",
-  "tipo": "Caminhada"
+  "tipo": "Caminhada / Trekking"
  },
  {
     "image": "https://destinoflorianopolis.com.br/wp-content/uploads/2017/06/Trilha-Lagoinha-do-Leste-Floripa-1024x554.jpg",
     "titulo": "Trilha da Lagoinha do Leste",
     "autor": "Guilherme Betsa",
     "cidade": "Florianópolis",
-    "estado": "Sc",
+    "estado": "SC",
     "duracao": 120,
     "trajeto": 10,
     "dificuldade": "Avançado",
-    "tipo": "Caminhada"
+    "tipo": "Caminhada / Trekking"
    }
 ]

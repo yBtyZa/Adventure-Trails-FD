@@ -1,0 +1,74 @@
+.imagem-fundo {
+    position: relative;
+}
+
+.imagem-fundo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://s3-alpha-sig.figma.com/img/d499/89ee/a6d23a7a9ffd6d136e430c855a72ebc0?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aNCm8Il7udCywQ3z3GwSwkSOXMpYVXyInNfBnh5qT-NQ-nY2VgJnOALnsFzAd9uFW4hgc-b5YLbsf1ffI5-NC2amZdwGcCeUpn-xLvdlY5K4AEDxjH45Tx1B~n0s0GW3PMo9-QFhvEgXqeazAo3gXDxUGXu9~GBLHWypGzvKz2D-bzyvjVTi8sOP6-Ip9Qo3~xsgV5AKYQ~EV9BJ~ZgRYrh~pAMggLyTGAmgdvlknJih80NKqpBrfE10ruSfZ~dFuXtCFtkl1qPkDLkGb3qLFZYT7FFJO9uEa9tTB4T3YBeG6y3laL6zx7MiedtT~LV6unSoeklRBQvxqUfSG8vAjg__");
+    background-color: #D8E3D2;
+    background-size: cover;
+    opacity: 0.10;
+    z-index: -1;
+}
+
+.container_cadastro {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 0 25vw;
+    padding-bottom: 100px;
+}
+
+.container_cadastro h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 60px;
+}
+
+.form_cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    text-align: start;
+}
+
+
+
+.error {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+}
+
+.div_cadastro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_cadastro {
+    width: 49%;
+}
+
+.btn_form {
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+    width: 100%;
+}

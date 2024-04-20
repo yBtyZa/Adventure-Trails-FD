@@ -77,10 +77,11 @@ function Card(props) {
      {props.titulo} - {props.cidade} / {props.estado}
     </h3>
     <hr />
+    <div className="info_trajeto">
     <p className="p_autor">
+      Tipo: {props.tipo}
      <strong>Por: {props.autor}</strong>
     </p>
-    <div className="info_trajeto">
      <p>Duração: {props.duracao}min</p>
      <p>Trajeto: {props.trajeto} km</p>
     </div>
