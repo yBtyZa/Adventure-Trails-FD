@@ -1,6 +1,11 @@
+@media(min-height: 880px) {
+    .imagem-fundo {
+        height: 100%;
+    }
+}
+
 .imagem-fundo {
     position: relative;
-    height: 100%;
 }
 
 .imagem-fundo::after {
