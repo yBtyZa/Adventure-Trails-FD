@@ -36,12 +36,17 @@
 }
 
 .p_autor{
-    text-align: end;
+    display: flex;
+    justify-content: space-between;
 }
 
 .info_trajeto{
     margin: 10px 0;
     color: #5C6670;
+}
+
+.p_autor strong{
+    color: #0D1A26;
 }
 
 .difficult_card{
