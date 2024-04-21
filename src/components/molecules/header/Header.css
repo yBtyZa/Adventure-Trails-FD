@@ -25,3 +25,13 @@
 .link_header a{
     margin: 0px 25px;
 }
+
+@media (max-width: 860px) {
+    .header_navbar {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .link_header a{
+        margin: 0px 10px;
+    }
+}

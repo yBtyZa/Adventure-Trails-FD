@@ -23,7 +23,7 @@ function CadastroTemplates() {
 
  const navigate = useNavigate();
  function adicionarNovaTrilha(form) {
-  setTrilhas(() => [...trilhas, form]);
+  setTrilhas(() => [form,...trilhas]);
   navigate("/trilhas");
  }
 

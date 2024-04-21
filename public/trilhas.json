@@ -1,16 +1,5 @@
 [
  {
-  "image": "https://donafloripa.com.br/wp-content/uploads/2020/08/costa-da-lagoa.jpg",
-  "titulo": "Trilha da Costa da Lagoa",
-  "autor": "Guilherme Betsa",
-  "cidade": "Florianópolis",
-  "estado": "SC",
-  "duracao": 120,
-  "trajeto": 7,
-  "dificuldade": "Intermediário",
-  "tipo": "Caminhada / Trekking"
- },
- {
   "image": "https://www.letshike.com.br/wp-content/uploads/2019/09/Gravata-FloripaHike-8.jpg",
   "titulo": "Trilha do Gravatá",
   "autor": "Guilherme Betsa",
@@ -21,6 +10,17 @@
   "dificuldade": "Iniciante",
   "tipo": "Caminhada / Trekking"
  },
+ {
+   "image": "https://donafloripa.com.br/wp-content/uploads/2020/08/costa-da-lagoa.jpg",
+   "titulo": "Trilha da Costa da Lagoa",
+   "autor": "Guilherme Betsa",
+   "cidade": "Florianópolis",
+   "estado": "SC",
+   "duracao": 120,
+   "trajeto": 7,
+   "dificuldade": "Intermediário",
+   "tipo": "Caminhada / Trekking"
+  },
  {
   "image": "https://sendoguia.com.br/wp-content/uploads/2022/08/naufragados.png",
   "titulo": "Trilha dos Naufragados",

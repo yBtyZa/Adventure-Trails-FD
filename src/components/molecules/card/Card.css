@@ -26,30 +26,30 @@
     line-height: 40px;
 }
 
-.description_card h3{
+.description_card h3 {
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.description_card hr{
+.description_card hr {
     width: 40px;
 }
 
-.p_autor{
+.p_autor {
     display: flex;
     justify-content: space-between;
 }
 
-.info_trajeto{
+.info_trajeto {
     margin: 10px 0;
     color: #5C6670;
 }
 
-.p_autor strong{
+.p_autor strong {
     color: #0D1A26;
 }
 
-.difficult_card{
+.difficult_card {
     background-color: #EFF0F0;
     padding: 6px 8px 6px 8px;
     border-radius: 32px;
@@ -57,35 +57,80 @@
     font-weight: 600;
 }
 
-.avaliacao_card{
+.avaliacao_card {
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
 
-.avaliacao_card a{
+.avaliacao_card a {
     color: #0D1A26;
     position: relative;
     top: 5px;
 }
 
-.avaliacao_card a:visited{
+.avaliacao_card a:visited {
     color: #0D1A26;
 }
 
-.stars_card{
+.stars_card {
     margin-right: 30px;
     display: flex;
     align-items: center;
 }
 
-.stars_card box-icon{
+.stars_card box-icon {
     width: 40px;
     height: 28.5px;
     cursor: pointer;
     padding: 0 5px 0 5px;
 }
 
-.div_stars{
+.div_stars {
     height: 20px;
+}
+
+@media (min-width: 1367px) {
+    .card {
+        width: 1200px;
+    }
+
+    .description_card {
+        width: 700px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 860px) {
+    .card {
+        flex-direction: column;
+        height: auto;
+        width: 95vw;
+    }
+
+    .img_card img {
+        width: 100%;
+    }
+
+    .description_card {
+        width: 90vw;
+        height: auto;
+    }
+
+    .description_card h3 {
+        font-size: 15px;
+    }
+
+    .info_trajeto {
+        font-size: 12px;
+        width: 85vw;
+    }
+
+    .p_autor {
+        font-size: 14px;
+    }
+
+    .avaliacao_card{
+        margin-bottom: 20px;
+    }
 }
