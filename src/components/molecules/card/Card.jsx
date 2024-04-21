@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Link} from "react-router-dom"
 import "./Card.css";
 import "boxicons";
 
@@ -104,7 +105,7 @@ function Card(props) {
       ))}
      </div>
 
-     <a href="">Avaliações</a>
+     <Link to={'/'}>Avaliações</Link>
     </div>
    </div>
   </div>

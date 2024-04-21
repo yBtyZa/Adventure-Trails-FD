@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.home{
+.home {
     padding: 0 83px;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 100px;
 }
 
-.home h1{
+.home h1 {
     font-size: 48px;
     color: #000000;
     font-weight: 400;
 }
 
-.home p{
+.home p {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -21,53 +21,114 @@
     margin-top: 50px;
 }
 
-.home_two{
+.home_two {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     gap: 50px;
 }
-.home_info h1{
+
+.home_info h1 {
     margin-bottom: 100px;
 }
 
-.home_img img{
+.home_img img {
     width: 590px;
     height: 330px;
 }
 
-.home_btn{
+.home_btn {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
 }
 
-.container_image{
+.container_image {
     height: 115vh;
 }
 
-.home_header{
+.home_header {
     font-family: "Inter", sans-serif;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    padding:  0 240px;
+    padding: 0 240px;
     color: #FFFFFF;
     position: relative;
     bottom: 500px;
     text-align: center;
 }
 
-.home_header h1{
+.home_header h1 {
     padding: 0 150px;
     font-size: 40px;
     font-weight: 600;
 }
 
-.home_header p{
+.home_header p {
     padding: 0 85px;
     font-size: 20px;
     font-weight: 400;
     margin: 50px 0;
+}
+
+@media (min-width: 1367px) {
+    .home_header {
+        padding: 0 520px;
+        bottom: 750px;
+    }
+
+    .home {
+        padding: 0 200px;
+    }
+
+    .home_img img {
+        width: 740px;
+        height: 410px;
+    }
+}
+
+@media (max-width: 860px) {
+
+    .container_image {
+        height: 100vh;
+    }
+
+    .home_header {
+        padding: 0 0px;
+        bottom: 600px;
+    }
+    
+    .home_header h1{
+        font-size: 20px;
+        padding: 0 10vw;
+    }
+
+    .home_header p {
+        font-size: 10px;
+        padding: 0 10vw;
+    }
+
+    .home{
+        padding: 0 7vw;
+    }
+
+    .home h1{
+        font-size: 25px;
+    }
+
+    .home_two{
+        flex-direction: column;
+    }
+
+    .home_two h1{
+        margin-bottom: 50px;
+    }
+
+    .home_two img{
+        width: 100%;
+        height: auto;
+    }
+
 }
